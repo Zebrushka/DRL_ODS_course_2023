@@ -6,7 +6,7 @@ from gym.envs.toy_text.taxi import *
 from IPython.display import clear_output
 from matplotlib import pyplot as plt
 from tqdm import tqdm
-%matplotlib inline
+# %matplotlib inline
 
 env = gym.make('Taxi-v3', render_mode='single_rgb_array')
 
